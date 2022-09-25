@@ -10,4 +10,5 @@
       "alg": "RS256"
     }
   ]
+  "valeues":["Hello","world","AUth","--aws-keys","email"]
 }
